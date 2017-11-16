@@ -1,0 +1,23 @@
+/*清除列表的样式*/
+ul,ol{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/*清除a链接的样式*/
+a{
+	text-decoration: none;
+}
+
+
+/*清除浮动*/
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.hide{
+	display: none;
+}
